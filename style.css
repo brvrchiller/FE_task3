@@ -1,0 +1,87 @@
+body{
+font-family : "Times New Roman",Arial,sans-serif;
+font-size : 14px;
+}
+.wrapper{
+  width : 970px;
+  margin : 0 auto;
+}
+/* HEADER */
+.logo{
+display : block;
+}
+.mainmenu ul{
+margin-top : 40px;
+display : block;
+background-color : #4c4c4c;
+height : 40px;
+margin-bottom : 40px;
+}
+.mainmenu ul li{
+display : inline-block;
+padding : 12px 24px;
+color : white;
+font-size : 15px;
+}
+.mainmenu ul li:hover{
+border-left : 1px solid gray;
+border-right : 1px solid gray;
+
+}
+
+/* CONTENT */
+
+
+.content-menu ul{
+display : block;
+width : 240px;
+margin-right : 47px;
+float : left;
+}
+.content-menu ul li{
+display: block;
+padding : 12px 24px;
+color : gray;
+font-size : 14px;
+border-bottom : 1px solid gray;
+border-right : 1px solid gray;
+border-left : 1px solid gray;
+}
+.content-menu ul li:first-child{
+border-top : 1px solid gray;
+}
+.content-menu ul li:hover{
+  color : black;
+  padding-left : 30px;
+}
+.image-1{
+float : right;
+
+}
+p{
+display : inline-block;
+width : 627px;
+float : right;
+margin-top : 40px;
+font-size : 14px;
+padding : 0 24px;
+line-height : 1.5em;
+margin-bottom : 82px;
+}
+
+.footer{
+display : block;
+clear : both;
+height : 40px;
+background-color : #e1e1e1;
+}
+.footer ul li{
+display : inline-block;
+padding : 12px 24px;
+}
+.footer ul li:last-child{
+  float: right;
+}
+.footer ul li:hover{
+text-decoration : underline;
+}
